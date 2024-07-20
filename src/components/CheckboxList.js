@@ -11,7 +11,7 @@ const CheckboxList = () => {
     { active: false, checked: true, style: "style5", isEmpty: false },
     { active: false, checked: true, style: "style6", isEmpty: false },
     { active: false, checked: true, style: "style5", isEmpty: false },
-    { active: true, checked: true, style: "style8", isEmpty: true },
+    { active: true, checked: true, style: "style8", isEmpty: false },
   ];
 
   return (
