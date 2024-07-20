@@ -1,0 +1,42 @@
+/* src/styles/CheckboxList.css */
+
+.multi-checkboxes {
+  width: 370px;
+  height: 326px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px; /* Add space between checkboxes */
+  margin-bottom: 30px;
+}
+
+.checkbox-multi-label {
+  display: flex;
+  justify-content: space-between; /* Distribute space between label text and checkbox */
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 100%;
+}
+
+.checkbox-multi-label input {
+  margin-left: auto; /* Push the checkbox to the right */
+  cursor: pointer;
+}
+
+.checkbox-multi-label input[type="checkbox"] {
+  transform: scale(2);
+}
+
+.checkbox-multi-label:nth-child(2) input[type="checkbox"]:disabled {
+    background-color: white !important;
+    color: rgb(73, 72, 72);
+} 
+
+.checkbox-multi-label:nth-child(2) input[type="checkbox"]:disabled:checked {
+    background-color: white !important; /* Ensure background color remains white when checked */
+}
+
+  
